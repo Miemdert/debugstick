@@ -1,0 +1,8 @@
+name: debugstick
+version: '0.1'
+main: by.miendert.debugstick.Debugstick
+api-version: '1.21'
+commands:
+  debugstick:
+    description: Получить debug stick
+    usage: /debugstick
