@@ -1,13 +1,33 @@
-# DebugStick Plugin
 
-## Description
+# 🪄 DebugStick Plugin 
 
-A simple plugin for Spigot based Minecraft servers
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.13+-green)
+[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
-## Commands
+Простой, но мощный плагин для выдачи debug stick на Spigot/Paper серверах.
 
-/debugstick - retrieve debug stick
+## 📥 Установка
 
-## Permissions
+1. Скачайте последнюю версию из [Releases](https://github.com/ваш-ник/DebugStick/releases)
+2. Поместите `.jar` файл в папку `plugins/`
+3. Перезагрузите сервер 
 
-debugstick.use - main permission to use /debugstick command
+## 🛠️ Возможности
+
+- Выдача debug stick с одним кликом
+- Работает со всеми блоками, поддерживающими изменение состояния
+- Безопасность через систему прав
+- Поддержка всех современных версий Minecraft
+
+## 📜 Команды
+
+| Команда | Описание | Пример |
+|---------|----------|--------|
+| `/debugstick` | Получить debug stick | `/debugstick` |
+
+## 🔐 Права
+
+| Право | Описание | По умолчанию |
+|-------|----------|--------------|
+| `debugstick.use` | Доступ к основной команде | op |
